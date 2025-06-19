@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    background-color: linen;
+    text-align: center;
+    font-family: Lucida Console, monospace;  /* sets the font for the body */
+}
+main{
+    margin: 15px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+img{
+            border-radius: 10px; /* border radius curves the edges */
+            border: 5px solid #333; /* border color and thickness */
+        } 
+
+
+.navbar ul{
+    background-color: lightgray;  /* sets the background color of the navbar */
+    list-style-type: none;  /* removes bullet points*/
+    padding: 10px;
+    overflow: hidden;  /* prevents the navbar from overflowing */
+    border: 2px solid;  /* adds a border around the links */
+    
+}
+.navbar a{
+    text-decoration: none;  /* removes underline from our navbar*/
+    padding: 20px;
+    display:block;
+    border: 2px solid black;  /* adds a border for the navbar */
+    color: black;  /* sets the text color */
+    margin: 2px;
+    
+}
+.navbar li{
+    float: left;  /* makes the list items appear in a row */
+}
+.navbar li a:hover{
+    background-color: darkgray;  /* changes the background color when hovering */
+}
+
+main ul li {
+    list-style-position: inside; /* Moves bullets closer to text */
+}
+.navbar{
+    position: sticky; /* makes the navbar stick to the top */
+    top: 0; 
+}
+
+.gallery {
+    border: 5px solid #333; /* adds a border around the gallery */
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    
+}
+.gallery .desc{
+    padding: 10px;
+    text-align: center; /* centers the text in the description */
+    font-size: 1.2em; /* increases the font size for better readability */
+}
+.gallery:hover{
+    border: 5px solid #b40000;
+}
+
+.gallery-img {
+  border: none; /* removes the default img border */
+  width: 500px;
+}
