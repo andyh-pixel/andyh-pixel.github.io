@@ -8,6 +8,15 @@ main{
     margin: 15px;
     text-align: center;
 }
+
+i{
+    font-size: 50px;
+    cursor: pointer; /* changes the cursor to a pointer when hovering */
+    position: absolute; /* positions the icon */
+    right: 10px;
+    
+}
+
 h1{
     text-align: center;
 }
