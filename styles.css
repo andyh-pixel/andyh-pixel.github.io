@@ -10,7 +10,7 @@ main{
 }
 
 i{
-    font-size: 50px;
+    font-size: 100px;
     cursor: pointer; /* changes the cursor to a pointer when hovering */
     position: absolute; /* positions the icon */
     right: 10px;
