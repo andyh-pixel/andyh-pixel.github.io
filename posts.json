@@ -1,0 +1,14 @@
+[
+    {
+        "title": "First Blog post! Process of implementing a dark theme",
+        "date": "2025-07-27",
+        "content": "HTML files: \n&lt;i class=&quot;bi bi-brightness-high-fill&quot; id=&quot;toggleDark&quot;&gt;&lt;/i&gt;\n I wanted an icon to represent a dark & light theme, bootstrap has a built-in icon for this, where you just copy and paste the exact web/icon font on their website, to utilize their icon.\nJavaScript files: \n When the icon is clicked, the function checks if 'bi-brightness-high-fill' is present, which indicates the sun. If it is, the theme switches to light mode. Through changing the body background colours, text colours, and a transition effect. And vice versa for dark mode. To save the theme across pages, the theme is stored in localStorage. "
+    },
+    {
+        "title": "Making a dynamic blog",
+        "date": "2025-07-27",
+        "content": "Instead of coding a header and a footer for every webpage, making it dynamic allows for easier updates and maintenance. I created custom HTML elements called special-header and special-footer. In JavaScript, I made 2 classes that extends to the HTML elements (one for the header and one for the footer). Then used a connectedCallBack() method, which makes it so my custom HTML element runs automatically when it gets added to the page. Within the method, I then define what the header and footer should look like, using the innerHTML property."
+    }
+]
+
+
