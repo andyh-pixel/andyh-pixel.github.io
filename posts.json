@@ -7,7 +7,7 @@
     {
         "title": "Making a dynamic blog",
         "date": "2025-07-27",
-        "content": "Instead of coding a header and a footer for every webpage, making it dynamic allows for easier updates and maintenance. I created custom HTML elements called special-header and special-footer. In JavaScript, I made 2 classes that extends to the HTML elements (one for the header and one for the footer). Then used a connectedCallBack() method, which makes it so my custom HTML element runs automatically when it gets added to the page. Within the method, I then define what the header and footer should look like, using the innerHTML property."
+        "content": "In a JSON file, I created three objects for a blog post, title, date, and content. I then created a script that fetches the JSON file (posts.json) and parses posts.json into a JavaScript object of posts, this iterates through each blog post. Inside the for loop, a list item is created, and constructs the HTML for each blog post (h2 for title, p for date & content). Lastly, the catch() is for error handling if any error occurs during the fetch() operation."
     }
 ]
 
